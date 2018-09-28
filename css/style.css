@@ -24,12 +24,13 @@ nav>a{
 }
 header{
     border-top: solid hsl(300, 350%, 20%) 1rem;
-    background-image: url(../img/img.jpeg);
+    background-image: url(../image/imgg.jpeg);
     padding:8rem 2rem;
     color: black;
     background-position: center;
     margin-left:2rem;
-    margin-right:2rem
+    margin-right:2rem;
+    background-repeat: no-repeat;
     
 }
 .firstShadow{
