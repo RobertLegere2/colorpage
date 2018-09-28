@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 16px;
+    font-family: 'web font', 'osx fallback', 'win fallback', sans-serif;
+    line-height: 1.5;
+    margin-top:2rem;
+}
+
+nav>a{
+    font-size: 1.7rem;
+    color:hsl(1000, 100%, 40%);
+    text-align:1rem;
+    margin:1.7rem;
+    
+}
+header{
+    border-top: solid hsl(300, 350%, 20%) 1rem;
+    background-image: url(../img/img.jpeg);
+    padding:8rem 2rem;
+    color: black;
+    background-position: center;
+    margin-left:2rem;
+    margin-right:2rem
+    
+}
+.firstShadow{
+    text-shadow:2px 3px 4px hsl(200, 80%, 20%);
+    font-size: 5rem;
+}
+
+h3.subheading{
+    margin-top:0rem;
+    margin-bottom:.5rem;
+    color:hsl(1000, 100%, 40%);
+    font-size:3rem;
+    background-color: hsl (0, 0%, 0%);
+}
+
+nav{
+    background-color: grey;
+    padding:1rem 1rem;
+    margin-left:2rem;
+    margin-right:2rem;
+}
+
+main{
+    padding:1rem 2rem;
+    text-align:justify;
+    padding:4rem
+}
+section{
+    padding:1rem 2rem;
+}
+aside{
+    padding:1rem 2rem;
+}
+footer{
+    padding:1rem 2rem;
+}
+p{
+    font-size:1rem;
+}
+ul {
+    font-size: 1.2rem;
+    margin-left:1.2rem;
+    list-style-type: disc;
+    text-align: left;
+ }
+h2{
+    color:black;
+}
+
+.subs{
+    font-size:1.5rem;
+    color:hsl(1000, 100%, 40%); 
+    text-align: left;
+    padding-bottom:1rem;
+}
+
+.secondShadow{
+    text-shadow:2px 3px 4px hsl(0, 0%, 40%);
+    font-size: 3rem;
+}
